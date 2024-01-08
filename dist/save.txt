@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body class="bg-slate-800 grid place-content-center h-screen">
+    <h1 class="text-green-400 text-4xl m-6">Test</h1>
+    <div class="">
+        <div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
+            <div>
+                <img class="h-20 w-20" src="https://cdn.pixabay.com/photo/2015/11/26/16/28/vintage-1064142_640.png"
+                    alt="logo">
+            </div>
+            <div>
+                <div class="text-2xl font-medium text-black">
+                    TailWind css
+                    <p class="text-slate-500 text-base">By Ayush Kanani</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button
+        class="bg-white text-center mt-2 text-black font-medium text-base p-2 rounded-3xl hover:bg-sky-500 hover:text-white">Buy
+        Now</button>
+
+    <div class="text-center my-4">
+        <p class="text-white md:text-green-500 sm:text-red-600">Lorem ipsum dolor sit.</p>
+    </div>
+    <div class="mt-3">
+        <div class="max-w-sm mx-auto bg-white rounded-xl overflow-hidden md:max-w-2xl">
+            <div class="md:flex">
+                <div>
+                    <img class="h-60 w-full object-cover md:h-full md:w-48"
+                        src="https://images.pexels.com/photos/5893624/pexels-photo-5893624.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        alt="background image">
+                </div>
+                <div class="p-8">
+                    <div class="uppercase tracking-wide text-sm text-indigo-500 font-semibold">An Awesome card</div>
+                    <a class="block mt-1 text-2xl font-medium hover:text-blue-600" href="#">TailWind Css</a>
+                    <p class="mt-2 text-slate-500">Lorem ipsum, dolor sit amet <span class="bg-yellow-500 p-[2px]">consectetur </span>aendi quis excepturi, amet
+                        </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

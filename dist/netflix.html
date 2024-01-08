@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Netflix/Homepage cloning for learning purpose</title>
+</head>
+
+<body>
+    <!-- Banner section starts -->
+
+    <section class="w-[100%] sm:h-[77vh] h-[53vh] bg-center bg-cover" style="background-image: url(images/main.jpg);">
+        <div class="w-[100%] h-[100vh] bg-[rgba(0,0,0,0.5)]">
+            <header class="max-w-[1170] mx-auto">
+                <div class="grid grid-cols-10 px-[10px] items-center">
+                    <div class="col-span-3">
+                        <figure>
+                            <img class="w-[148px]" src="images/logo.svg" alt="Netflix logo">
+                        </figure>
+                    </div>
+                    <div class="flex justify-end col-span-7 sm:gap-[10px] bg-opacity-5">
+                        <div class="relative cursor-pointer">
+                            <svg class="text-white absolute sm:top-[9px] sm:left-[7px] top-[30%] left-[25%]" width="16" height="16"
+                                viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                class="default-ltr-cache-4z3qvp e1svuwfo1" data-name="Languages" aria-hidden="true">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M10.7668 5.33333L10.5038 5.99715L9.33974 8.9355L8.76866 10.377L7.33333 14H9.10751L9.83505 12.0326H13.4217L14.162 14H16L12.5665 5.33333H10.8278H10.7668ZM10.6186 9.93479L10.3839 10.5632H11.1036H12.8856L11.6348 7.2136L10.6186 9.93479ZM9.52722 4.84224C9.55393 4.77481 9.58574 4.71045 9.62211 4.64954H6.41909V2H4.926V4.64954H0.540802V5.99715H4.31466C3.35062 7.79015 1.75173 9.51463 0 10.4283C0.329184 10.7138 0.811203 11.2391 1.04633 11.5931C2.55118 10.6795 3.90318 9.22912 4.926 7.57316V12.6667H6.41909V7.51606C6.81951 8.15256 7.26748 8.76169 7.7521 9.32292L8.31996 7.88955C7.80191 7.29052 7.34631 6.64699 6.9834 5.99715H9.06968L9.52722 4.84224Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                            <select name="" id=""
+                                class="bg-[rgba(1,1,1,0.7)] rounded-[5px] sm:p-[5px_25px] p-[5px_0px] sm:text-white border-[1px] border-gray-500">
+                                <option class="bg-white text-black" value="">English</option>
+                                <option class="bg-white text-black" value="">Hindi</option>
+                            </select>
+                        </div>
+                        <button
+                            class="bg-[rgba(229,9,20)] hover:bg-[rgb(193,17,25)] rounded-[5px] px-[12px] ml-[8px] sm:ml-3 mr-4 text-white">Sign
+                            In</button>
+                    </div>
+                </div>
+            </header>
+
+            <div class="max-w[1170px] mx-auto sm:py-[165px] py-[19px] text-center text-white">
+                <h1 class="sm:text-[45px] text-[32px] leading-[40px] font-bold">Unlimited movies, TV shows and more</h1>
+                <h4 class="text-[20px]  py-[9px]">Watch anywhere. Cancel anytime.</h4>
+                <p class="text-[20px] ">Ready to watch? Enter your email to create or restart your
+                    membership.</p>
+
+                <div class="max-w-[700px] sm:px-[10px] px-[40px] mx-auto mt-[30px] ">
+                    <form action="" class="grid sm:grid-cols-[70%_auto] gap-[20px] grid-cols-1">
+                        <input type="text" id="email"
+                            class="border-[1px] outline-offset-2 text-[18px] text-gray-600 font-semibold bg-[rgba(1,1,1,0.6)] h-[50px] pl-[20px] border-gray-500 rounded-[4px]"
+                            placeholder="Email Address">
+                        <div class="relative">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg" data-mirrorinrtl="true"
+                                class="default-ltr-cache-4z3qvp e1svuwfo1 absolute bottom-[26%] left-[60%]"
+                                data-name="ChevronRight" aria-hidden="true">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M15.5859 12L8.29303 19.2928L9.70725 20.7071L17.7072 12.7071C17.8948 12.5195 18.0001 12.2652 18.0001 12C18.0001 11.7347 17.8948 11.4804 17.7072 11.2928L9.70724 3.29285L8.29303 4.70706L15.5859 12Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                            <button for="email"
+                                class="bg-[rgb(229,9,20)] sm:w-full sm:h-full w-[200px] h-[48px] text-[22px] text-left px-5  font-bold hover:bg-[rgb(193,17,25)] duration-300 rounded-[4px] ">Get
+                                Started</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner section ends -->
+
+    <!-- Enjoy your tv section -->
+
+    <section class="w-[100%] bg-black border-t-[7px] border-t-[#605d5d] sm:py-[100px] py-[50px]">
+        <div class="max-w-[1170px] mx-auto px-12">
+            <div class="grid sm:grid-cols-2 grid-cols-1 items-center">
+                <div class="text-white sm:text-start text-center">
+                    <h2 class="sm:text-[50px] text-[36px] font-bold">Enjoy your Tv</h2>
+                    <p class="sm:text-[22px] text-[16px] font-semibold">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
+                        Blu-ray players and more.</p>
+                </div>
+                <figure class="relative">
+                    <video class="absolute w-[80%] left-[10%] bottom-[20%] z-[1]" autoplay loop>
+                        <source
+                            src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v">
+                    </video>
+                    <img class="relative z-[2]" src="images/tv.png" alt="">
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <!-- Enjoy your tv section ends -->
+
+    <!-- Download Section start -->
+
+    <section class="w-[100%] bg-black border-t-[7px] border-t-[#605d5d] sm:py-[70px] py-[50px]">
+        <div class="max-w-[1170px] mx-auto">
+            <div class="grid sm:grid-cols-2 grid-cols-1 items-center">
+                <figure class="relative sm:order-1 order-2">
+                    <img src="images/download.jpg" alt="">
+                    <div
+                        class="grid grid-cols-[70%_auto] items-center rounded-[15px] bg-black sm:w-[70%] w-[80%] absolute sm:left-[15%] left-[10%] border-[1px] border-[#ccc] bottom-[9%]">
+                        <div class="grid grid-cols-[25%_auto] items-center p-[10px] gap-[10px]">
+                            <img class="" src="images/stranger_things.png" alt="">
+                            <div class="text-white">
+                                <h3 class="font-bold">Stranger Things</h3>
+                                <span class="text-blue-600 text-[15px]">Downloading...</span>
+                            </div>
+                        </div>
+                        <div class="sm:w-[70%] w-[80%] left-[20%] sm:left-[15%]">
+                            <img src="images/lodaing.gif" alt="">
+                        </div>
+                    </div>
+                </figure>
+                <div class="text-white sm:text-start text-center sm:order-2 order-1 ">
+                    <h2 class="sm:text-[50px] text-[30px] font-bold sm:leading-[60px] leading-[50px]">Download your shows to watch
+                        offline</h2>
+                    <p class="text-[25px]">Save your favourites easily and always have something to watch.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Download Section ends -->
+
+    <!-- Whatch everywere -->
+
+    <section class="w-[100%] bg-black border-t-[7px] border-t-[#605d5d] sm:py-[100px] py-[50px]">
+        <div class="max-w-[1170px] mx-auto px-10">
+            <div class="grid sm:grid-cols-2 grid-cols-1 items-center">
+                <div class="text-white sm:text-start text-center">
+                    <h2 class="text-[50px] font-bold">Watch everywere</h2>
+                    <p class="text-[22px] font-semibold">Stream unlimited movies and TV shows on your phone, tablet,
+                        laptop, and TV.</p>
+                </div>
+                <figure class="relative">
+                    <video class="absolute w-[64%] left-[18%] bottom-[40%] z-[0]" controls autoplay loop>
+                        <source src="images/video-devices-in.m4v">
+                    </video>
+                    <img class="relative z-[2]" src="images/watch.png" alt="">
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <!-- Whatch everywere ends -->
+
+    <!-- Create profile for kids -->
+
+    <section class="w-[100%] bg-black border-t-[7px] border-t-[#605d5d] px-[20px] sm:py-[70px] py-[50px]">
+        <div class="max-w-[1170px] mx-auto">
+            <div class="grid sm:grid-cols-2 grid-cols-1 items-center">
+                <figure class="relative sm:order-1 order-2">
+                    <img src="images/children.png" alt="">
+                </figure>
+                <div class="text-white sm:text-start text-center sm:order-2 order-1 ">
+                    <h2 class="text-[50px] font-bold sm:leading-[60px] leading-[50px]">Create profiles for kids</h2>
+                    <p class="text-[23px]">Send children on adventures with their favourite characters in a space made
+                        just for them—free with your membership.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profile for kids ends -->
+
+    <!-- FAQ section start-->
+
+    <section class="w-[100%] bg-black border-t-[7px] border-t-[#605d5d] sm:py-[60px] py-[50px]">
+        <div class="max-w-[1170px] mx-auto px-10">
+            <h2 class="text-white font-bold text-[48px] text-center">Frequently Asked Questions</h2>
+
+            <div class="py-[26px]">
+                <div class="bg-[rgb(40,40,40)] mb-2">
+                    <div
+                        class="faqQuestion p-[20px] relative text-white text-[22px] border-b-[1px] border-black hover:bg-[rgb(78,78,78)] cursor-pointer duration-300">
+                        <h3>What is Netflix?</h3><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="absolute right-8 top-[34%] elj7tfr3 e164gv2o5 default-ltr-cache-1x8sdhp e1svuwfo1"
+                            data-name="Plus" alt="">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11 11V2H13V11H22V13H13V22H11V13H2V11H11Z"
+                                fill="currentColor"></path>
+                        </svg>
+                    </div>
+                    <div class="text-white text-[21px] scale-y-0 h-0 origin-top duration-200">
+                        <p>
+                            Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies,
+                            anime, documentaries and more – on thousands of internet-connected devices.
+                        </p>
+                        <br>
+                        <p>
+                            You can watch as much as you want, whenever you want, without a single ad – all for one low
+                            monthly price. There's always something new to discover, and new TV shows and movies are
+                            added
+                            every week!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-[rgb(40,40,40)] mb-2">
+                    <div
+                        class="faqQuestion p-[20px] relative text-white text-[22px] border-b-[1px] border-black hover:bg-[rgb(78,78,78)] cursor-pointer duration-300">
+                        <h3>How much does Netflix cost?<h3><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    class="absolute right-8 top-[34%] elj7tfr3 e164gv2o5 default-ltr-cache-1x8sdhp e1svuwfo1"
+                                    data-name="Plus" alt="">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M11 11V2H13V11H22V13H13V22H11V13H2V11H11Z" fill="currentColor"></path>
+                                </svg>
+                    </div>
+                    <div class="text-white text-[21px] scale-y-0 h-0 origin-top duration-200">
+                        <p>
+                            Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one
+                            fixed monthly fee. Plans range from ₹149 to ₹649 a month. No extra costs, no contracts.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-[rgb(40,40,40)] mb-2">
+                    <div
+                        class="faqQuestion p-[20px] relative text-white text-[22px] border-b-[1px] border-black hover:bg-[rgb(78,78,78)] cursor-pointer duration-300">
+                        <h3>Where can I watch?</h3><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="absolute right-8 top-[34%] elj7tfr3 e164gv2o5 default-ltr-cache-1x8sdhp e1svuwfo1"
+                            data-name="Plus" alt="">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11 11V2H13V11H22V13H13V22H11V13H2V11H11Z"
+                                fill="currentColor"></path>
+                        </svg>
+                    </div>
+                    <div class="text-white text-[21px] scale-y-0 h-0 origin-top duration-200">
+                        <p>
+                            Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at
+                            netflix.com from your personal computer or on any internet-connected device that offers the
+                            Netflix app, including smart TVs, smartphones, tablets, streaming media players and game
+                            consoles.
+                        </p>
+                        <br>
+                        <p>
+                            You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use
+                            downloads to watch while you're on the go and without an internet connection. Take Netflix
+                            with you anywhere.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-[rgb(40,40,40)] mb-2">
+                    <div
+                        class="faqQuestion p-[20px] relative text-white text-[22px] border-b-[1px] border-black hover:bg-[rgb(78,78,78)] cursor-pointer duration-300">
+                        <h3>How do I cancel?</h3><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="absolute right-8 top-[34%] elj7tfr3 e164gv2o5 default-ltr-cache-1x8sdhp e1svuwfo1"
+                            data-name="Plus" alt="">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11 11V2H13V11H22V13H13V22H11V13H2V11H11Z"
+                                fill="currentColor"></path>
+                        </svg>
+                    </div>
+                    <div class="text-white text-[21px] scale-y-0 h-0 origin-top duration-200">
+                        <p>
+                            Netflix is flexible. There are no annoying contracts and no commitments. You can easily
+                            cancel your account online in two clicks. There are no cancellation fees – start or stop
+                            your account anytime.
+                        </p>
+                        <br>
+                        <p>
+                            You can watch as much as you want, whenever you want, without a single ad – all for one low
+                            monthly price. There's always something new to discover, and new TV shows and movies are
+                            added
+                            every week!
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-[rgb(40,40,40)] mb-2">
+                    <div
+                        class="faqQuestion p-[20px] relative text-white text-[22px] border-b-[1px] border-black hover:bg-[rgb(78,78,78)] cursor-pointer duration-300">
+                        <h3>What can I watch on Netflix?</h3><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="absolute right-8 top-[34%] elj7tfr3 e164gv2o5 default-ltr-cache-1x8sdhp e1svuwfo1"
+                            data-name="Plus" alt="">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11 11V2H13V11H22V13H13V22H11V13H2V11H11Z"
+                                fill="currentColor"></path>
+                        </svg>
+                    </div>
+                    <div class="text-white text-[21px] scale-y-0 h-0 origin-top duration-200">
+                        <p>
+                            Netflix has an extensive library of feature films, documentaries, TV shows, anime,
+                            award-winning Netflix originals, and more. Watch as much as you want, anytime you want.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="bg-[rgb(40,40,40)] mb-2">
+                    <div
+                        class="faqQuestion p-[20px] relative text-white text-[22px] border-b-[1px] border-black hover:bg-[rgb(78,78,78)] cursor-pointer duration-300">
+                        <h3>Is Netflix good for kids?</h3><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="absolute right-8 top-[34%] elj7tfr3 e164gv2o5 default-ltr-cache-1x8sdhp e1svuwfo1"
+                            data-name="Plus" alt="">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M11 11V2H13V11H22V13H13V22H11V13H2V11H11Z"
+                                fill="currentColor"></path>
+                        </svg>
+                    </div>
+                    <div class="text-white text-[21px] scale-y-0 h-0 origin-top duration-200">
+                        <p>
+                            The Netflix Kids experience is included in your membership to give parents control while
+                            kids enjoy family-friendly TV shows and films in their own space.
+                        </p>
+                        <br>
+                        <p>
+                            Kids profiles come with PIN-protected parental controls that let you restrict the maturity
+                            rating of content kids can watch and block specific titles you don’t want kids to see.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <h4 class="text-white text-center font-semibold text-[20px] my-3">Ready to watch? Enter your email to create
+                or restart your membership.</h4>
+
+            <div class="max-w-[600px] mx-auto sm:px-[10px] px-[40px] mt-[30px]">
+                <div class="sm:flex sm:flex-wrap sm:gap-1 block">
+                    <div class="flex-1" style="display:flex; flex: 2">
+                        <input type="text" placeholder="Email address"
+                            class="pl-[20px] mb-[20px] font-semibold outline-offset-2 text-white h-[50px] w-[100%] bg-transparent rounded-[4px] border-gray-500 border-[1px]">
+                            
+                    </div>
+                    <div class="cursor-pointer justify-center" style="display:flex; flex: 1">
+                        <div class="relative">
+                        <button
+                            class="text-white hover:bg-[rgb(193,17,25)] pl-[30px] font-bold text-left sm:pl-[30px] text-[18px] bg-[rgb(229,9,20)] h-[50px] w-[180px] rounded-[4px]">Get
+                            Started
+                        </button>
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            data-mirrorinrtl="true"
+                            class="default-ltr-cache-4z3qvp e1svuwfo1 text-white absolute left-[70%] sm:bottom-[45%] sm:left-[80%] bottom-[24%] right-[8%]"
+                            data-name="ChevronRight" aria-hidden="true">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M15.5859 12L8.29303 19.2928L9.70725 20.7071L17.7072 12.7071C17.8948 12.5195 18.0001 12.2652 18.0001 12C18.0001 11.7347 17.8948 11.4804 17.7072 11.2928L9.70724 3.29285L8.29303 4.70706L15.5859 12Z"
+                                fill="currentColor"></path>
+                        </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ section ends-->
+
+    <!-- Footer section start-->
+
+    <footer class="w-[100%] bg-black border-t-[7px] border-t-[#605d5d] sm:py-[50px] py-[50px]">
+        <div class="max-w-[1170px] mx-auto px-10">
+            <div class="mt-[20px] mb-[20px]">
+                <h4 class="text-white text-[15px] font-semibold text-[rgba(255,255,255,0.7)]">Questions? Call 
+                   <a href="" class="underline">000-800-919-1694</a></h4>
+            </div>
+            <div class="grid sm:grid-cols-4 grid-cols-2 text-[rgba(255,255,255,0.7)] underline">
+                <div>
+                    <ul>
+                        <li class="mb-[10px]"><a href="">FAQ</a></li>
+                        <li class="mb-[10px]"><a href="">Investor Relations</a></li>
+                        <li class="mb-[10px]"><a href="">Privacy</a></li>
+                        <li class="mb-[10px]"><a href="">Speed Test</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li class="mb-[10px]"><a href="">Help Center</a></li>
+                        <li class="mb-[10px]"><a href="">Jobs</a></li>
+                        <li class="mb-[10px]"><a href="">Cookie Preference</a></li>
+                        <li class="mb-[10px]"><a href="">Legal Notices</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li class="mb-[10px]"><a href="">Account</a></li>
+                        <li class="mb-[10px]"><a href="">Ways to Watch</a></li>
+                        <li class="mb-[10px]"><a href="">Corporate Information</a></li>
+                        <li class="mb-[10px]"><a href="">Only on Netflix</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li class="mb-[10px]"><a href="">Media Center</a></li>
+                        <li class="mb-[10px]"><a href="">Terms of use</a></li>
+                        <li class="mb-[10px]"><a href="">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="relative mt-[20px]">
+                <svg class="text-white absolute top-[9px] left-[7px]" width="16" height="16"
+                    viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"
+                    class="default-ltr-cache-4z3qvp e1svuwfo1" data-name="Languages" aria-hidden="true">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M10.7668 5.33333L10.5038 5.99715L9.33974 8.9355L8.76866 10.377L7.33333 14H9.10751L9.83505 12.0326H13.4217L14.162 14H16L12.5665 5.33333H10.8278H10.7668ZM10.6186 9.93479L10.3839 10.5632H11.1036H12.8856L11.6348 7.2136L10.6186 9.93479ZM9.52722 4.84224C9.55393 4.77481 9.58574 4.71045 9.62211 4.64954H6.41909V2H4.926V4.64954H0.540802V5.99715H4.31466C3.35062 7.79015 1.75173 9.51463 0 10.4283C0.329184 10.7138 0.811203 11.2391 1.04633 11.5931C2.55118 10.6795 3.90318 9.22912 4.926 7.57316V12.6667H6.41909V7.51606C6.81951 8.15256 7.26748 8.76169 7.7521 9.32292L8.31996 7.88955C7.80191 7.29052 7.34631 6.64699 6.9834 5.99715H9.06968L9.52722 4.84224Z"
+                        fill="currentColor"></path>
+                </svg>
+                <select name="" id=""
+                    class="bg-[rgba(1,1,1,0.7)] rounded-[5px] sm:p-[5px_25px] p-[5px_20px] text-white border-[1px] border-gray-500">
+                    <option class="bg-white text-black" value="">English</option>
+                    <option class="bg-white text-black" value="">Hindi</option>
+                </select>
+            </div>
+            <h4 class="text-white mt-[20px] text-[rgba(255,255,255,0.7)]">Netflix India</h4>
+        </div>
+    </footer>
+
+    <!-- Footer section ends-->
+
+</body>
+
+<script>
+
+    let allquestion = document.querySelectorAll(".faqQuestion");
+
+    allquestion.forEach((v, index) => {
+
+        v.addEventListener("click", () => {
+
+            v.nextElementSibling.classList.toggle("h-[auto]");
+            v.nextElementSibling.classList.toggle("scale-y-100");
+            v.nextElementSibling.classList.toggle("p-[20px]");
+            v.children[1].classList.toggle("rotate-45");
+
+            allquestion.forEach((el, i) => {
+                if (i != index) {
+                    el.nextElementSibling.classList.remove("h-[auto]", "scale-y-100", "p-[20px]");
+                    el.children[1].classList.remove("rotate-45");
+                }
+            })
+        })
+    })
+
+
+</script>
+
+</html>
